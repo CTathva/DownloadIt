@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+ 
+ .header{
+     display: flex;
+     align-items: center;
+     width: 100%;
+     height: 130px;
+ }
+ .logo{
+     width: 80;
+     height: 80;
+     border-radius: 50%;
+     margin-left: 20;
+ }
+ .logo-text{
+  color: #00AFFF;
+  font-size: 35;
+  margin-left: 20;
+  display: inline;
+}
+.subhead-text{
+  color: #00AFFF;
+  font-size: 35;
+  display: inline;
+}
+.desc-text{
+  font-size:20;
+  color: #222222;
+  line-height: 1.4;
+  margin-top: 10;
+}
+.flyer{
+    width: 98%;
+    height: 465;
+  }
+.sub-container{
+float: right;
+margin-right: 130;
+margin-top: -425;
+z-index: 99;
+}
+.dwld-button{
+  position: relative;
+  background-color: #00AFFF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18;
+  margin-top: 40;
+  width: 225;
+  height: 50;
+}
+.dwld-button:hover {
+  background-color:#5ad2f7;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  float: right;
+  margin-right: 50;
+  margin-top: -110;
+  overflow: hidden;
+}
+ol {
+ display: block;
+ 
+}
+li {
+  float: left;
+  padding: 20;
+}
+
+
+li a {
+  color: #00AFFF;
+  display: block;
+  font-size: 20;
+  padding: 8px;
+}
+li a:hover {
+  color: #222222;
+
+}
+.clouds{
+  margin-top: -80;
+}
+#features{
+  padding: 60;
+  height: 375;
+}
+#howto{
+  padding: 60;
+  height: 375;
+}
+.footer{
+  height: 250;
+  width: 100%;
+  background-color: #222222;
+}
