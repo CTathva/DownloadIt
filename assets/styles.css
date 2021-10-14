@@ -43,6 +43,13 @@
     position: relative;          
     display: inline-block;                        
     top: 25; 
+  }
+ .logo2{
+    width: 60;
+    height: 60;
+    position: relative;          
+    display: inline-block;                        
+    top: 25; 
      
 
   }
