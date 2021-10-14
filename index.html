@@ -1,176 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-family: 'Josefin Sans', sans-serif;
-    text-decoration: none;
-    box-sizing: border-box;
-  }
-  h2{
-    color: #00AFFF;
-  }
-  p{
-    font-size: 14px;
-  }
-  h4{
-    text-align: center;
-    margin-top: 10px;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  .shape1{
-    background-color: #00AFFF;
-    border-radius: 0% 0% 30% 30%;
-    width: 100%;
-    height: 55%;
-  }
-  .shape2{
-    background-color: #fff;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    width: 92%;
-    z-index: 10;
-    margin-top: -95%;
-    height: 25%;
-  }
-  .logo{
-    width: 50;
-    height: 50;
-    position: relative;          
-    display: inline-block;       
-    left: 50%;                  
-    top: 25; 
-    transform: translate(-50%);  
+<html lang="en">
 
-  }
-  .logo1{
-    width: 50;
-    height: 50;
-    position: relative;          
-    display: inline-block;                        
-    top: 25; 
-  }
- .logo2{
-    width: 60;
-    height: 60;
-    position: relative;          
-    display: inline-block;                        
-    top: 25; 
-     
+<head>
+  <title>DownloadIt- Download Videos on a Click</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/logo.ico">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
 
-  }
-  .appname{
-    color: #111111;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 900;
-    margin-top: 35px;
-  }
-  .caption{
-    color: #00AFFF;
-    text-align: center;
-    font-size: 14px;
-    margin-top: 10px;
-  }
-  .heading{
-    color: #00AFFF;
-    text-align: center;
-    font-size: 25px;
-    margin-top: 40px;
-  }
-  .shape3{
-    background-color: #fff;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 0px 0px;
-    width: 92%;
-    z-index: 1;
-    margin-top: 5%;
-    height: 45%;
-  }
+<body>
 
-  .shape5{
-    background-color: #fff;
-    display: block;
-    margin-left: auto;
-    text-align: justify;
-    margin-right: auto;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 0px 0px;
-    width: 92%;
-    padding: 20px;
-    z-index: 1;
-    margin-top: 5%;
-  }
+  <div class="shape1">
 
-  .shape4{
-    background-color: #fff;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.2) 1px 5px 1px 1px;
-    width: 92%;
-    z-index: 10;
-    margin-top: 8%;
-    height: 20%;
-  }
+  </div>
+  <div class="shape2">
+    <img class="logo" src="assets/logo.png"/>
+    <h1 class="heading">DownloadIt</h1>
+    <h1 class="caption">Download Videos on a Click</h1>
+  </div>
+  <div class="shape3">
+    <br>
+    <h1 class="caption">Download Videos from</h1>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img class="logo1" src="assets/insta.png"/>
+        <h1 class="appname">Instagram</h1>
+      </div>
+      <div class="grid-item">
+        <img class="logo1" src="assets/wa.png"/>
+        <h1 class="appname">WhatsApp</h1>
+      </div>
+      <div class="grid-item">
+        <img class="logo1" src="assets/fb.png"/>
+        <h1 class="appname">Facebook</h1>
+      </div>  
+      <div class="grid-item">
+        <img class="logo1" src="assets/tw.png"/>
+        <h1 class="appname">Twitter</h1>
+      </div>
+
+    </div>
+
+  </div>
+  <button class="btn">DownloadIt</button>
+  <h4>Latest Release: Version 1.3</h4>
+  <div class="shape4">
+    <div class="grid-container1">
+      <div class="grid-item1" onclick="window.location.href='about.html';" >
+        <img class="logo2"src="assets/info.png"/>
+        <h1 class="appname">About</h1>
+      </div>
+      <div class="grid-item1" onclick="window.location.href='about.html';">
+        <img class="logo2" src="assets/how.png"/>
+        <h1 class="appname">How to Use ?</h1>
+      </div>
+      <div class="grid-item1"  onclick="window.location.href='privacy.html';" >
+        <img class="logo2" src="assets/pri.png"/>
+        <h1 class="appname">Privacy</h1>
+      </div>  
+
+    </div>
+
+  </div>
+  <br><br>
+  <center><p><img width="20" height="15" src="assets/india.png"> Made in India</p><br>
+  <div class="footerclr">
+    Copyright &copy;<script>document.write(" "+new Date().getFullYear());</script> | All rights reserved
+  </div>
+  <br><br>
 
 
-  .grid-container {
-    display: grid;
-    height: 80%;
-    margin-top: -20;
-    grid-template-columns: auto auto;
-    padding: 10px;
-  }
-  .grid-container1 {
-    display: grid;
-    height: 80%;
-    width: 100%;
-    margin-top: -20;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-  }
-  .grid-item {
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-  }
- .grid-item1 {
-    font-size: 30px;
-    text-align: center;
-  }
+ <!--https://drive.google.com/uc?id=1V2T0y_uF3fuC8LNPuUTTwVn_abYpdkdE&export=download--> 
+</body>
 
-  .btn {
-    background-color: #00AFFF;
-    border: none;
-    width: 95%;
-    height: 10%;
-    z-index: 9;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-    margin-top: 15px;
-    color: white;
-    padding: 12px 16px;
-    font-weight: 900;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  
-  .btn:hover {
-    background-color: rgb(19, 154, 196);
-  }
-  .footerclr{
-    text-align: center; 
-    color: #222222;
-    font-size: 12px;
-  }
+</html>
