@@ -94,7 +94,7 @@
     box-shadow: rgba(0, 0, 0, 0.2) 1px 5px 1px 1px;
     width: 92%;
     z-index: 10;
-    margin-top: 3%;
+    margin-top: 5%;
     height: 22%;
   }
 
@@ -116,6 +116,10 @@
   }
   .grid-item {
     padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+ .grid-item1 {
     font-size: 30px;
     text-align: center;
   }
