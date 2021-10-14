@@ -81,7 +81,7 @@
     box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 0px 0px;
     width: 92%;
     z-index: 10;
-    margin-top: 5%;
+    margin-top: 10%;
     height: 45%;
   }
 
@@ -94,8 +94,8 @@
     box-shadow: rgba(0, 0, 0, 0.2) 1px 5px 1px 1px;
     width: 92%;
     z-index: 10;
-    margin-top: 8%;
-    height: 20%;
+    margin-top: 3%;
+    height: 22%;
   }
 
 
